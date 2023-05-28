@@ -2,8 +2,8 @@ public class HotDrink extends Product {
 
     private int temp;
 
-    public HotDrink(String name, int price, int temp) {
-        super(name, price);
+    public HotDrink(String name, int volume, int temp) {
+        super(name, volume);
         this.temp = temp;
 
     }
@@ -18,7 +18,7 @@ public class HotDrink extends Product {
 
     @Override
     public String toString() {
-        return "HotDrink {" + "name='" + name + "\'" + ", price =" + price + ", temp =" + temp + "}";
+        return "HotDrink {" + "name='" + name + "\'" + ", volume =" + volume + ", temp =" + temp + "}";
     }
 
     @Override
@@ -27,8 +27,8 @@ public class HotDrink extends Product {
     }
 
     @Override
-    public int getPrice() {
-        return super.price;
+    public int getVolume() {
+        return super.volume;
     }
 
     @Override
@@ -38,8 +38,8 @@ public class HotDrink extends Product {
     }
 
     @Override
-    public void setPrice(int price) {
-        super.price = price;
+    public void setVolume(int price) {
+        super.volume = volume;
 
     }
 

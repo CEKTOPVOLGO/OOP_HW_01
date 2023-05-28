@@ -1,16 +1,16 @@
 public abstract class Product {
     protected String name;
-    protected int price;
+    protected int volume;
 
     
-    public Product(String name, int price) {
+    public Product(String name, int volume) {
         this.name = name;
-        this.price = price;
+        this.volume = volume;
     }
     public abstract String getName();
     public abstract void setName(String name);
-    public abstract int getPrice();
-    public abstract void setPrice(int price);
+    public abstract int getVolume();
+    public abstract void setVolume(int volume);
     
     
 }
